@@ -13,6 +13,9 @@ Follow these steps to set up the project locally:
    cd your-project
    composer install
    cp .env.example .env
+   php artisan key:generate
+   npm install
+   npm run build
    php artisan serve
 
    ```
